@@ -1,6 +1,6 @@
 let userConfig = undefined
 try {
-  userConfig = await import('./v0-user-next.config')
+  userConfig = await import('./user-next.config')
 } catch (e) {
   // ignore error
 }
@@ -21,6 +21,7 @@ const nextConfig = {
     parallelServerBuildTraces: true,
     parallelServerCompiles: true,
   },
+    distDir: 'out',  // Ensures Next.js exports to /dist
 }
 
 mergeConfig(nextConfig, userConfig)
