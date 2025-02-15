@@ -25,7 +25,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head> <link rel="favicon" href={metadata.favicon} /> </head>
+      <head>
+        <link rel="favicon" href={metadata.favicon}/>
+      </head>
       <body className={`${spaceGrotesk.variable} ${inter.variable} font-sans`}>{children}</body>
     </html>
   )

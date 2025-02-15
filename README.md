@@ -1,5 +1,7 @@
 # Peshal's Personal Station
 
+<img src="https://zip.peshal.xyz/u/Amj4dB.png">  </img>
+
 This project is built using Next.js and Tailwind CSS, providing a modern and responsive design.
 
 ### Project Structure
