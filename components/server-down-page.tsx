@@ -50,7 +50,7 @@ export default function ServerDownPage() {
   }
 
   return (
-    <div className="relative min-h-screen bg-amber-900 flex flex-col items-center justify-center p-4 overflow-hidden">
+    <div className="relative min-h-screen bg-black flex flex-col items-center justify-center p-4 overflow-hidden">
       <AbstractBackground />
       <InteractiveElements />
 

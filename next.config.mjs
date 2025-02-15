@@ -21,7 +21,7 @@ const nextConfig = {
     parallelServerBuildTraces: true,
     parallelServerCompiles: true,
   },
-    distDir: 'out',  // Ensures Next.js exports to /dist
+    distDir: 'out',
 }
 
 mergeConfig(nextConfig, userConfig)
